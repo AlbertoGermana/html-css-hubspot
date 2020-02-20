@@ -1,0 +1,27 @@
+/* color picked */
+/* #f5f8fa; sfondo navbar e better together*/
+/* #425567 scritte navbar */
+/* #33475b h1 better_way */
+/* #868e97 p better_way */
+/* #425567 arancione pulsanti */
+ /* da #00a8ba a #00b7ab sfondo award winning */
+ /* #33475b sfondo footer */
+/* #ffffff h5 footer */
+ /* #cbd6e2 tutte le scritte del footer tranne h5 */
+
+/* _______________RESET RULES______________ */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ______________COMMON RULES______________ */
+li{list-style-type: none;}
+a{text-decoration: none;}
+#body_site{width: 100vw;}
+.main_col{
+  width: 54vw;
+  display: block;
+  margin: 0 23vw;
+}
