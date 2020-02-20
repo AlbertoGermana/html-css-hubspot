@@ -1,6 +1,4 @@
 /* color picked */
-/* #f5f8fa; sfondo navbar e better together*/
-/* #425567 scritte navbar */
 /* #33475b h1 better_way */
 /* #868e97 p better_way */
 /* #425567 arancione pulsanti */
@@ -10,19 +8,9 @@
  /* #cbd6e2 tutte le scritte del footer tranne h5 */
 
 /* DEBUG:  */
-
-.fully_large{
-  background-color: yellow;
-}
 .main_col{
-  background-color: violet;
+
 }
-
-
-
-
-
-
 
 
 /* _______________ RESET RULES______________ */
@@ -30,12 +18,16 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 /* ______________ COMMON RULES______________ */
 li{list-style-type: none;}
 a{text-decoration: none;}
 .fully_large{width: 100vw;}
+.fully_large_gray{
+  background-color: #f5f8fa;
+}
 .main_col{
   width: 54vw;
   display: block;
@@ -44,15 +36,44 @@ a{text-decoration: none;}
 .logo{
   height: 30px;
 }
+.block_rel_left{
+  position: relative;
+  display: block;
+  float: left;
+}
+.block_rel_right{
+  position: relative;
+  display: block;
+  float: right;
+}
+
+
+a{
+  font-size: 16px;
+  font-weight: bold;
+  color: #33475b;
+}
 /* ______________ HEADER RULES______________ */
 header{
+  color: #425567;
+}
+#fixed_bar{
+  height: 80px;
+}
+#fixed_bar .selected_lang{
 
+}
+#fixed_bar ul{
+  display: none;
 }
 .header_icon{
   height: 28px;
 }
-
+#language_list{
+  line-height: 5;
+}
 /* ______________ NAV RULES______________ */
+
 nav{
 
 }
