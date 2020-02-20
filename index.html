@@ -7,14 +7,13 @@
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
   </head>
   <body>
-    <!-- ---------------------- body of all site -->
-    <div id="body_site">
       <!-- ---------------------- HEADER -->
-      <header>
-        <!-- ---------------------- top fixed bar -->
-        <div id="login_bar" class="main_col">
-          <div id="language_list">
-            <a id="selected_lang" href="#"><img src="https://cdn2.hubspot.net/hubfs/53/Logos/language-switcher-icon.svg" alt="">English</a>
+    <header>
+      <!-- ---------------------- top fixed bar -->
+      <div class="fully_large">
+        <div id="login_bar " class="main_col">
+          <div id="language_list" class="">
+            <a id="selected_lang" href="#"><img class="header_icon" src="https://cdn2.hubspot.net/hubfs/53/Logos/language-switcher-icon.svg" alt="">English</a>
             <ul>
               <li>English</li>
               <li>Espanol</li>
@@ -23,14 +22,17 @@
               <li>Cinese</li>
             </ul>
             <a id="selected_lang" href="#">Contact Sales</a>
-            <i class="fas fa-search"></i>
+            <i class="fas fa-search header_icon"></i>
             <a class="btn_transp" href="#">Log in</a>
             <a class="btn_fill" href="#">Get HubSpot free</a>
           </div>
         </div>
-        <!-- ---------------------- NAVBAR -->
-        <nav>
-          <img id="logo" src="img/logo.svg" alt="">
+      </div>
+
+      <!-- ---------------------- NAVBAR -->
+      <div class="fully_large">
+        <nav class="main_col">
+          <img id="logo" class="logo" src="img/logo.svg" alt="">
           <ul id="menu_bar">
             <li>Sofware</li>
             <li>Pricing</li>
@@ -40,10 +42,13 @@
           </ul>
 
         </nav>
-      </header>
+      </div>
+    </header>
+    <!-- ---------------------- MAIN -->
+    <main">
       <!-- ---------------------- better way to grow -->
-      <section id="better_way" class="">
-        <div class="">
+      <section id="better_way" class="fully_large">
+        <div class="main_col">
           <h1>There’s a better way to grow.</h1>
           <p>Marketing, sales, and service software that helps your business grow without compromise. Because “good for the business” should also mean “good for the customer.”</p>
           <a class="btn_fill" href="#">Get HubSpot free</a>
@@ -51,14 +56,14 @@
         </div>
       </section>
       <!-- ---------------------- better together -->
-      <section id="better_together" class="">
-        <div class="">
+      <section id="better_together" class="fully_large">
+        <div class="main_col">
           <img src="img/rubik.png" alt="cubo di rubik">
           <h2>Powerful alone. Better together.</h2>
           <p>HubSpot offers a full stack of software for marketing, sales, and customer service, with a completely free CRM at its core. They’re powerful alone — but even better when used together.</p>
         </div>
         <!-- horizontal card -->
-        <div class="">
+        <div class="main_col">
           <div id="free_hubspot_crm" class="horiz_card">
             <div class="">
               <img src="img/dati.PNG" alt="libro aperto con dati">
@@ -75,9 +80,9 @@
             </ul>
           </div>
         </div>
-<!-- vertical cards -->
-        <div id="card_marketing" class="vert_card">
-          <img src="#" alt="">
+        <!-- vertical cards -->
+        <div id="card_marketing" class="vert_card ">
+          <img src="img/magia.PNG" alt="">
           <h4>Marketing Hub</h4>
           <p>Marketing software to help you grow traffic, convert more visitors, and run complete inbound marketing campaigns at scale.</p>
           <span>______________________</span>
@@ -91,7 +96,7 @@
 
         </div>
         <div id="sales_hub" class="vert_card">
-          <img src="#" alt="">
+          <img src="img/cartella.PNG" alt="">
           <h4>Sales Hub</h4>
           <p>Time-saving sales software that helps you get deeper insights into prospects, automate the tasks you hate, and close more deals faster.</p>
           <span>______________________</span>
@@ -104,7 +109,7 @@
           </ul>
         </div>
         <div id="service_hub" class="vert_card">
-          <img src="#" alt="">
+          <img src="img/tavolo.png" alt="">
           <h4>Service Hub</h4>
           <p>Customer service software to help you connect with customers, exceed expectations, and turn them into promoters that grow your business.</p>
           <span>______________________</span>
@@ -259,19 +264,18 @@
           </ul>
         </div>
       </section>
+    </main>
       <!-- ---------------------- FOOTER -->
-      <footer>
-        <div class="">
-          <img src="img/logo_footer.svg" alt="">
-          <p>Copyright © 2020 HubSpot, Inc</p>
-        </div>
-        <div class="">
-          <a class="footer_link" href="#">Legal Stuff</a>
-          <a class="footer_link" href="#">Privacy Policy</a>
-        </div>
-      </footer>
+    <footer>
+      <div class="">
+        <img class="logo" src="img/logo_footer.svg" alt="">
+        <p>Copyright © 2020 HubSpot, Inc</p>
+      </div>
+      <div class="">
+        <a class="footer_link" href="#">Legal Stuff</a>
+        <a class="footer_link" href="#">Privacy Policy</a>
+      </div>
+    </footer>
 
-
-    </div>
   </body>
 </html>

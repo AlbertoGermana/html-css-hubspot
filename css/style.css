@@ -9,19 +9,76 @@
 /* #ffffff h5 footer */
  /* #cbd6e2 tutte le scritte del footer tranne h5 */
 
-/* _______________RESET RULES______________ */
+/* DEBUG:  */
+
+.fully_large{
+  background-color: yellow;
+}
+.main_col{
+  background-color: violet;
+}
+
+
+
+
+
+
+
+
+/* _______________ RESET RULES______________ */
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* ______________COMMON RULES______________ */
+/* ______________ COMMON RULES______________ */
 li{list-style-type: none;}
 a{text-decoration: none;}
-#body_site{width: 100vw;}
+.fully_large{width: 100vw;}
 .main_col{
   width: 54vw;
   display: block;
   margin: 0 23vw;
+}
+.logo{
+  height: 30px;
+}
+/* ______________ HEADER RULES______________ */
+header{
+
+}
+.header_icon{
+  height: 28px;
+}
+
+/* ______________ NAV RULES______________ */
+nav{
+
+}
+/* ______________ MAIN RULES______________ */
+main{
+
+}
+/* ______________ SECTION RULES______________ */
+section{
+
+}
+                /* ______________ better_way ______________ */
+#better_together img{
+  height: 195px;
+}
+                /* ______________ better_together ______________ */
+#free_hubspot_crm img{
+  height: 150px;
+}
+                /* ______________ horiz_card ______________ */
+.vert_card img{
+  height: 150px;
+}
+                /* ______________ vert_card ______________ */
+
+/* ______________ FOOTER RULES______________ */
+footer{
+
 }
