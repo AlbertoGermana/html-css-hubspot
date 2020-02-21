@@ -256,8 +256,6 @@ section{}
 #award_winning_container{
   margin-top: 100px;
 }
-.row{
-}
 .cell{
   width: calc(100%/4);
 }
@@ -281,7 +279,30 @@ section{}
 #last_row{
   margin-bottom: 80px;
 }
-
+                /* ______________ customers ______________ */
+#customers h2{
+  font-size: 52px;
+}
+#customers p{
+  line-height: 2;
+}
+#customers_left_box{
+  width: 40%;
+  height: 300px;
+  margin-top: 100px;
+}
+#customers_table{
+  width: 60%;
+  height: 300px;
+  margin-top: 120px;
+}
+.customer{
+  height: 16px;
+  width: 130px;
+  margin: 28px 12px;
+  position: relative;
+  display: block;
+  float: left;
 /* ______________ FOOTER RULES______________ */
 footer{
 
