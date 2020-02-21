@@ -1,13 +1,13 @@
 /* color picked */
-//* #868e97 p better_way */
+/* #868e97 p better_way */
 
- /* background-image: linear-gradient(45deg, #00A4BD, #00BDA5); */
+ /*  */
  /* #33475b sfondo footer */
 /* #ffffff h5 footer */
  /* #cbd6e2 tutte le scritte del footer tranne h5 */
 
 /* _______________ RESET RULES______________ */
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -16,12 +16,15 @@
 }
 
 /* ______________ COMMON RULES______________ */
-li{list-style-type: none;}
-a{text-decoration: none;}
+li{
+  list-style-type: none;
+}
+a{
+  text-decoration: none;
+}
 .fully_large{width: 100vw;}
 .fully_large_gray{
-  /* background-color: #f5f8fa; */
-  background-color: blue;
+  background-color: #f5f8fa;
 }
 .main_col{
   width: 54vw;
@@ -63,11 +66,20 @@ h1{
   font-size: 46px;
   margin-top: 100px;
 }
+h3{
+  font-size: 32px;
+  text-align: center;
+}
 h2{
   font-size: 32px;
 }
 h4{
   font-size: 22px;
+  text-align: center;
+}
+hr{
+  margin: 20px;
+  color: red;
 }
 p{
   margin-top: 20px;
@@ -154,9 +166,6 @@ section{}
   margin-top: 20px;
 }
                 /* ______________ better_together ______________ */
-#better_together img{
-  height: 195px;
-}
 #rubik{
   margin: 0 auto 30px;
   padding-top: 80px;
@@ -169,6 +178,9 @@ section{}
 #better_together p{
   text-align: center;
   margin-top: 30px;
+}
+#better_together ul{
+  margin-left: 40px;
 }
 #free_hubspot_crm img{
   height: 150px;
@@ -196,10 +208,6 @@ section{}
 #crm_info p{
   text-align: left;
 }
-#crm_info span{
-  color: red;
-  margin-left: 22px;
-}
 #crm_info ul{
   padding-top: 12px;
 }
@@ -213,7 +221,7 @@ section{}
 }
 #vertical_cards_container .btn{
   margin-left: 96px;
-  line-height: 3;
+  line-height: 7;
 }
 #vertical_cards_container li{
   margin: 10px 0;
@@ -231,12 +239,49 @@ section{}
   margin-left: 38px;
   margin-right: 38px;
 }
-
 .vert_card img{
-
-
-
+  height: 150px;
+  margin: 26px 68px;
 }
+                /* ______________ award_winning ______________ */
+#award_winning{
+  background-image: linear-gradient(45deg, #00A4BD, #00BDA5);
+  border: red solid 1px;
+}
+#award_winning h3,#award_winning h2,#award_winning p{
+  color: white;
+  text-align: center;
+  margin: 3%;
+}
+#award_winning_container{
+  margin-top: 100px;
+}
+.row{
+}
+.cell{
+  width: calc(100%/4);
+}
+.uppercell{
+  border-bottom: 2px white solid;
+}
+.innercell{
+  border-left: 2px white solid;
+  border-right: 2px white solid;
+}
+.innercell_lf{
+  border-left: 2px white solid;
+}
+.cell img{
+  display: block;
+  margin: 24px 36%;
+}
+#first_row{
+  margin-top: 100px;
+}
+#last_row{
+  margin-bottom: 80px;
+}
+
 /* ______________ FOOTER RULES______________ */
 footer{
 
