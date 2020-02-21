@@ -1,7 +1,5 @@
 /* color picked */
-/* #33475b h1 better_way */
-/* #868e97 p better_way */
-/* #425567 arancione pulsanti */
+//* #868e97 p better_way */
  /* da #00a8ba a #00b7ab sfondo award winning */
  /* #33475b sfondo footer */
 /* #ffffff h5 footer */
@@ -66,6 +64,9 @@ h1{
 h2{
   font-size: 32px;
 }
+h4{
+  font-size: 22px;
+}
 p{
   margin-top: 20px;
   font-size: 18px;
@@ -77,6 +78,17 @@ p{
 }
 .p_small{
   font-size: 14px;
+}
+.uppercase{
+  text-transform: uppercase;
+}
+.checkbox{
+  background: url("https://cdn2.hubspot.net/hubfs/53/assets/hubspot.com/partners/images/Orange_Checkmark.svg") no-repeat;
+  width: 18px;
+  height: 18px;
+  display: inline-block;
+  margin-bottom: -5px;
+  margin-right: 10px;
 }
 /* ______________ HEADER RULES______________ */
 header{
@@ -160,11 +172,47 @@ section{}
   height: 150px;
 }
                 /* ______________ horiz_card ______________ */
-.vert_card img{
-  height: 150px;
+.horiz_card{
+  background-color: white;
+  border-radius: 5px;
+  height: 300px;
+  margin-top: 100px;
 }
-                /* ______________ vert_card ______________ */
+#crm_img_btn{
+  width: 25%;
+}
+#crm_img_btn img{
+  position: relative;
+  margin: 26px 16px;
+}
+#crm_img_btn a{
+  margin-left: 56px;
+}
+#crm_info{
+  width: 75%;
+}
+#crm_info p{
+  text-align: left;
+}
+#crm_info span{
+  color: red;
+  margin-left: 22px;
+}
+#crm_info ul{
+  padding-top: 12px;
+}
+#crm_info li{
+  display: inline;
+  padding-left: 25px;
+}
 
+
+                /* ______________ vert_card ______________ */
+.vert_card img{
+  height: 630px;
+  background-color: white;
+  border-radius: 5px;
+}
 /* ______________ FOOTER RULES______________ */
 footer{
 
