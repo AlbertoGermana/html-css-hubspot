@@ -46,6 +46,20 @@ a{text-decoration: none;}
   display: block;
   float: right;
 }
+.btn{
+  border: 2px solid;
+  border-radius: 6px;
+  padding: 16px;
+  margin-top: 4px;
+}
+.btn_fill{
+  border: #ff7a59;
+  background-color: #ff7a59;
+  color: white;
+}
+.btn_transp{
+
+}
 
 
 a{
@@ -60,17 +74,28 @@ header{
 #fixed_bar{
   height: 80px;
 }
-#fixed_bar .selected_lang{
-
-}
 #fixed_bar ul{
   display: none;
 }
+#fixed_bar a{
+  margin-left: 25px;
+}
+#selected_lang{
+  margin-left: 5px !important;
+}
+.header_a{
+  margin-top: 20px;
+}
 .header_icon{
   height: 28px;
+  margin-top: 15px;
+  margin-right: 11px;
 }
-#language_list{
-  line-height: 5;
+.fa-search{
+  margin-top: 22px;
+}
+#login_container{
+  padding-top: 10px;
 }
 /* ______________ NAV RULES______________ */
 
