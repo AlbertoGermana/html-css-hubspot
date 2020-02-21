@@ -1,6 +1,7 @@
 /* color picked */
 //* #868e97 p better_way */
- /* da #00a8ba a #00b7ab sfondo award winning */
+
+ /* background-image: linear-gradient(45deg, #00A4BD, #00BDA5); */
  /* #33475b sfondo footer */
 /* #ffffff h5 footer */
  /* #cbd6e2 tutte le scritte del footer tranne h5 */
@@ -19,7 +20,8 @@ li{list-style-type: none;}
 a{text-decoration: none;}
 .fully_large{width: 100vw;}
 .fully_large_gray{
-  background-color: #f5f8fa;
+  /* background-color: #f5f8fa; */
+  background-color: blue;
 }
 .main_col{
   width: 54vw;
@@ -208,17 +210,26 @@ section{}
                 /* ______________ vert_card ______________ */
 #vertical_cards_container{
   width: 100%;
-
+}
+#vertical_cards_container .btn{
+  margin-left: 96px;
+  line-height: 3;
+}
+#vertical_cards_container li{
+  margin: 10px 0;
 }
 .vert_card{
+  margin-top: 50px;
+  margin-bottom: 100px;
   height: 630px;
-  width: 30%;
+  width: 320px;
   background-color: white;
   border-radius: 5px;
-  border: red 1px solid;
+
 }
 #sales_hub{
-  margin: 0 4%;
+  margin-left: 38px;
+  margin-right: 38px;
 }
 
 .vert_card img{
