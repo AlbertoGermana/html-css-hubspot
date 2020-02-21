@@ -205,13 +205,26 @@ section{}
   display: inline;
   padding-left: 25px;
 }
-
-
                 /* ______________ vert_card ______________ */
-.vert_card img{
+#vertical_cards_container{
+  width: 100%;
+
+}
+.vert_card{
   height: 630px;
+  width: 30%;
   background-color: white;
   border-radius: 5px;
+  border: red 1px solid;
+}
+#sales_hub{
+  margin: 0 4%;
+}
+
+.vert_card img{
+
+
+
 }
 /* ______________ FOOTER RULES______________ */
 footer{
