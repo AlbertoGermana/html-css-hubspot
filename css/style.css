@@ -13,6 +13,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #33475b;
 }
 
 /* ______________ COMMON RULES______________ */
@@ -57,14 +58,17 @@ a{text-decoration: none;}
 a{
   font-size: 16px;
   font-weight: bold;
-  color: #33475b;
 }
 h1{
   font-size: 46px;
   margin-top: 100px;
 }
+h2{
+  font-size: 32px;
+}
 p{
   margin-top: 20px;
+  font-size: 18px;
 }
 .clearfix:after {
   display: block;
@@ -126,21 +130,31 @@ section{}
                 /* ______________ better_way ______________ */
 #better_way{
   background-image: url("../img/jumbotron.png");
-  border: 3px solid violet;
-  color: #33475b;
 }
 #better_way_block{
   width: 50%;
   height: 750px;
 }
-
 #better_way a{
   display: inline-block;
   margin-top: 20px;
 }
                 /* ______________ better_together ______________ */
-  #better_together img{
+#better_together img{
   height: 195px;
+}
+#rubik{
+  margin: 0 auto 30px;
+  padding-top: 80px;
+  display: block;
+  box-sizing: initial;
+}
+#better_together h2{
+  text-align: center;
+}
+#better_together p{
+  text-align: center;
+  margin-top: 30px;
 }
 #free_hubspot_crm img{
   height: 150px;
