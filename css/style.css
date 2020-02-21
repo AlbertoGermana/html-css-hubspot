@@ -7,12 +7,6 @@
 /* #ffffff h5 footer */
  /* #cbd6e2 tutte le scritte del footer tranne h5 */
 
-/* DEBUG:  */
-.main_col{
-
-}
-
-
 /* _______________ RESET RULES______________ */
 *{
   margin: 0;
@@ -47,25 +41,38 @@ a{text-decoration: none;}
   float: right;
 }
 .btn{
-  border: 2px solid;
+  border: 2px solid #ff7a59;
   border-radius: 6px;
   padding: 16px;
   margin-top: 4px;
 }
 .btn_fill{
-  border: #ff7a59;
   background-color: #ff7a59;
   color: white;
 }
 .btn_transp{
-
+  border-color: #ff7a59;
+  color: #ff7a59;
 }
-
-
 a{
   font-size: 16px;
   font-weight: bold;
   color: #33475b;
+}
+h1{
+  font-size: 46px;
+  margin-top: 100px;
+}
+p{
+  margin-top: 20px;
+}
+.clearfix:after {
+  display: block;
+  content: "";
+  clear: both;
+}
+.p_small{
+  font-size: 14px;
 }
 /* ______________ HEADER RULES______________ */
 header{
@@ -73,6 +80,7 @@ header{
 }
 #fixed_bar{
   height: 80px;
+  /* position: fixed; da fare vedere!!!!*/
 }
 #fixed_bar ul{
   display: none;
@@ -98,23 +106,42 @@ header{
   padding-top: 10px;
 }
 /* ______________ NAV RULES______________ */
-
+.logo{
+  margin-top: 20px;
+}
 nav{
-
+  display: block;
+  height: 80px;
+  margin-top: 80px;
+}
+nav ul li{
+  display: inline-block;
+  margin-left: 25px;
+  margin-top: 28px;
 }
 /* ______________ MAIN RULES______________ */
-main{
-
-}
+main{}
 /* ______________ SECTION RULES______________ */
-section{
-
-}
+section{}
                 /* ______________ better_way ______________ */
-#better_together img{
-  height: 195px;
+#better_way{
+  background-image: url("../img/jumbotron.png");
+  border: 3px solid violet;
+  color: #33475b;
+}
+#better_way_block{
+  width: 50%;
+  height: 750px;
+}
+
+#better_way a{
+  display: inline-block;
+  margin-top: 20px;
 }
                 /* ______________ better_together ______________ */
+  #better_together img{
+  height: 195px;
+}
 #free_hubspot_crm img{
   height: 150px;
 }
