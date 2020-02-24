@@ -13,6 +13,9 @@ li{
 a{
   text-decoration: none;
 }
+.arrow{
+  margin-left: 10px;
+}
 .fully_large{
   width: 100vw;
 }
@@ -69,7 +72,6 @@ h4{
 }
 hr{
   margin: 20px;
-  color: red;
 }
 p{
   margin-top: 20px;
@@ -201,6 +203,24 @@ nav ul li{
 #crm_info p{
   text-align: left;
 }
+.contiene{
+  position: relative;
+}
+.pop_feature{
+  display: block;
+  float: left;
+}
+.separator{
+  width: 65%;
+  height: 1px;
+  display: block;
+  float: left;
+  margin: 38px 41px 0;
+  border: 1px #00000024 solid;
+}
+.boxOfChechbox{
+  margin-top: 60px;
+}
 #crm_info ul{
   padding-top: 12px;
 }
@@ -264,7 +284,7 @@ nav ul li{
 }
 .cell img{
   display: block;
-  margin: 24px 36%;
+  margin: 24px auto;
 }
 #first_row{
   margin-top: 100px;
